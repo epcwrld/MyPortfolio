@@ -1,0 +1,142 @@
+/* CSS File For Challenge Project */
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    top: 0;
+    border-bottom: 1px solid red;
+}
+
+header p {
+    font-size: 1rem;
+    float: left;
+    justify-self: flex-start;
+
+}
+
+header ul {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+    margin: auto 2rem;
+}
+
+.epcwrld-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    height: 13rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblogs.mtu.edu%2Fbusiness%2Ffiles%2F2019%2F01%2Fsilicon-valley.jpg&f=1&nofb=1&ipt=0b621f8dbc8a843014aa2c936f0fb2eed1c07a8b5abe8a9bc583aafc6e5f2af5&ipo=images');
+    background-position: center;
+    
+}
+
+.epcwrld-header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.mission {
+    margin: 1rem 0;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.techstack {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+}
+
+.techstack-container {
+    display: flex;
+    justify-content:space-between;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.techstack-container .box {
+    color: white;
+    font-weight: 800;
+    display: inline-flex;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 2rem 1rem;
+    padding: 1rem 1rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: rgb(255, 142, 195);
+    border-radius: .75rem;
+    text-align: center;
+
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+    background-image: url('https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_640,q_60,w_1600/v1/clients/kelowna-redesign/About_Us_Landing_Page_c696bfb8-6157-40b2-9d11-78ea149f1543.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me img {
+    height: 20rem;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 142, 195);
+}
+
+.about-me .image {
+    float: left;
+    margin: 2rem 2rem;
+}
+
+.about-me .description {
+    float: right;
+    line-height: 2rem;
+    background-color: rgb(236, 236, 236);
+    max-width: 500px;
+    min-width: 250px;
+    padding: 1rem 2rem;
+    font-style: bold;
+    opacity: 0.7;
+}
+
+.more-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    background-color: rgb(147, 251, 255);
+}
