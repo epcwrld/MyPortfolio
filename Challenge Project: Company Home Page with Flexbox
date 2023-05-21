@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Coding Portfolio</title>
+  </head>
+
+  <!----- Project Requirements ---
+
+  - A title and logo or splash image.
+  - A mission statement or brief description of the company.
+  - A list or set of images and titles representing the product or products of the company.
+  - A section describing some of the company’s employees or teammates.
+  
+  ------>
+  
+  <!-- Body Section -->
+  <body>
+
+    <!-- Header -->
+    <header>
+      <p>EPCWRLD.io</p>
+      <ul>
+        <li href="#">Mission</li>
+        <li href="#">Projects</li>
+        <li href="#">People</li>
+      </ul>
+    </header>
+    
+    <!-- EPCWRLD.io Section -->
+    <div class="epcwrld-header">
+      <h1>EPCWRLD.io</h1>
+    </div>
+
+    <!-- Mission Statement Section -->
+    <div class="mission container">
+      <div>
+        <h3>The Mission:</h3>
+      </div>
+      <div>
+        <h4>"Learning How To Develop Front-End and Back-End Code With Codecademy."</h4>
+      </div>    
+    </div>
+
+    <div class="techstack">
+        <h1>// TECHSTACK //</h1>
+    </div>
+    
+    <div class="techstack-container">
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">JavaScript (In Progress)</div>
+        <div class="box">Python (In Progress)</div>
+      </div>
+    </div>
+
+    <!-- People Section -->
+    <h1>About Me</h1>
+    <div class="about-me">
+      <div class="image">
+        <img src="https://media.licdn.com/dms/image/C5603AQEpNyjjO9G1mA/profile-displayphoto-shrink_800_800/0/1650684839242?e=2147483647&v=beta&t=HybvJFkYYeQ6vmRhs2mxbEQjyXgx0Rp5U8TZNsvRB8s">
+      </div>
+      <div class="description">
+        <p>"Hey, I'm Erik, a 28 year old West Coast based Web Developer, currently building my skills with CSS using the online platform Codecademy.</p>
+        
+        <p>I've currently completed the "Learn HTML" and "Learn CSS" Courses, along with some coursework in JavaScript and Python!</p>
+        
+        <p>I hope to land an entry level position as a junior developer by 2023.</p>
+
+        <p>Anyone can start a new careerpath with the internet. Here's to developing the future."</p>
+      </div>
+    </div>
+
+    <!-- More Content Section -->
+
+    <div class="more-content">
+      <h1>More Content In The Works, Stay Tuned.</h1>
+    </div>
+  </body>
+</html>
